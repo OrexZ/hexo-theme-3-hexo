@@ -12,22 +12,22 @@ link:
   theme: color # 链接样式，color: 彩色图标  white: 黑白图标
   items:
     rss: /atom.xml
-    github: https://github.com/yelog
-    facebook: https://www.facebook.com/faker.tops
-    twitter:
-    linkedin:
-    instagram: https://www.facebook.com/faker.tops
-    reddit: https://www.reddit.com/user/yelog/
-    weibo: http://weibo.com/u/2307534817
-    jianshu: https://www.jianshu.com/u/ff56736de7cf
-    zhihu: https://www.zhihu.com/people/jaytp/activities
-    csdn:
-    oschina: https://my.oschina.net/yelog
-    juejin:
-    email: jaytp@qq.com
-    qq: 872336115
-    kugou: https://www.kugou.com/
-    neteasemusic: https://music.163.com/#/user/home?id=88151013
+    github: https://github.com/OrexZ
+    #facebook: https://www.facebook.com/faker.tops
+    #twitter:
+    #linkedin:
+    #instagram: https://www.facebook.com/faker.tops
+    #reddit: https://www.reddit.com/user/yelog/
+    #weibo: http://weibo.com/u/2307534817
+    #jianshu: https://www.jianshu.com/u/ff56736de7cf
+    #zhihu: https://www.zhihu.com/people/jaytp/activities
+    #csdn:
+    #oschina: https://my.oschina.net/yelog
+    #juejin:
+    email: imcatsee@sina.com
+    qq: 1274928808
+    #kugou: https://www.kugou.com/
+    #neteasemusic: https://music.163.com/#/user/home?id=88151013
 
 ##########多作者模式############
 author:
@@ -64,9 +64,9 @@ menu:
       on: false
       url: /photo
       type: 1  # 跳转类型 1：站内异步跳转
-    叶落阁:
+    青楼:
       on: false
-      url: http://yelog.org/
+      url: http://orexz.github.io
       type: 2  # 跳转类型 2：当前页面跳转
     github:
       on: false
@@ -74,16 +74,16 @@ menu:
       type: 3  # 跳转类型 3：打开新的tab页
 
 # 文末声明
-article_txt: 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 jaytp@qq.com
+article_txt: ‘采花’请注明来源于‘本楼’，欢迎对本楼‘姑娘们的姿色’进行善意的评论，心痒时，可情书至 imcatsee@sina.com
 
-bottom_text: ©2016-2019 Yelog
+bottom_text: ©2019-2019 OrexZ
 # 自定义页面最下方的站点版权信息
 # 如果不填，则自定义为 ©2017 author (这个author为hexo根目录_config.yml中配置的)
 
-reward: true
+reward: false
 # true 开启打赏功能
 
-searchAll: false
+searchAll: true
 # true 启用全文搜索
 # 开启此功能需要下面操作：
 # 1. 在 hexo 根目录 执行 npm install hexo-generator-search --save 安装插件
@@ -96,7 +96,7 @@ searchAll: false
 copyright: true
 # Copyright info. of post | 文末版权信息
 
-word_count: false
+word_count: true
 # true 开启字数统计
 # 开启此功能需要安装插件 ：在 hexo根目录 执行npm i hexo-wordcount --save
 
@@ -111,7 +111,7 @@ visit_counter:
 ##########自定义样式设置##############
 # Table of contents | 文章目录
 toc:
-  max_depth: 3  # 1 - 6 (h1-h6) 目录最大级数
+  max_depth: 4  # 1 - 6 (h1-h6) 目录最大级数
 
 #文章列表 鼠标移上去的样式, 为空时使用默认效果
 article_list:
@@ -194,12 +194,15 @@ mathjax:
 
 # 友情链接
 friends:
-  叶落阁: http://yelog.org/
+  青楼: http://OrexZ.github.io
+  泰晓科技: http://tinylab.org
 
 ##########评论设置#############
 comment:
-  on: false
+  #on: false
+  on: true
   type: gitalk  # 评论系统：gitalk、disqus、gentie、gitment,注意：使用时，在下方对应位置进行配置
+  ＃type: gitment  # 评论系统：gitalk、disqus、gentie、gitment,注意：使用时，在下方对应位置进行配置
   comment_count: true  # 文章标题下方显示评论数
   preload_comment: false  # 预加载评论区
   ## false: 当点击评论条等区域时再加载评论模块
@@ -218,11 +221,11 @@ gentie:
   # 网易云跟帖暂时不支持查询评论数，所以启用时，把评论数关掉，上方comment_count: false。
 
 gitalk:
-  githubID: yelog
-  repo: yelog.github.io
-  ClientID:
-  ClientSecret:
-  adminUser: yelog
+  githubID: OrexZ
+  repo: OrexZ.github.io
+  ClientID: f21515edf63e394f9a79
+  ClientSecret: 4eec5a720671d80ee40a7d6dde007cae167fa530
+  adminUser: OrexZ
   distractionFreeMode: true
   language: zh-CN
   perPage: 10
@@ -239,14 +242,14 @@ gitalk:
 
 
 gitment:
-  owner: yelog
-  repo: yelog.github.io
-  client_id:
-  client_secret:
+  owner: OrexZ
+  repo: OrexZ.github.io
+  client_id: f21515edf63e394f9a79
+  client_secret: 4eec5a720671d80ee40a7d6dde007cae167fa530
   # gitment : 通过github issue实现的评论系统
   # 开源地址 : https://github.com/imsun/gitment
   # 使用说明 :
-  #
+  # npm i --save gitment
 
 ##############################
 
